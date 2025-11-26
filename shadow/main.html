@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Swietliki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game" id="game">
+    <canvas id="tentacles"></canvas>
+    <div class="light-mask" id="lightMask"></div>
+    <div class="hud">
+      <div class="stamina-label">Stamina</div>
+      <div class="stamina-bar">
+        <div class="stamina-fill" id="staminaFill"></div>
+      </div>
+      <div class="hint">Shift lub LPM - sprint | R - restart</div>
+    </div>
+    <div class="status" id="status">
+      <div class="title" id="statusTitle"></div>
+      <div class="subtitle">R - zagraj ponownie</div>
+    </div>
+
+    <div class="treasure" id="treasure"></div>
+    <div class="lamp" id="lamp"></div>
+
+    <div class="spider" id="spider1">
+      <div class="spider-body">
+        <div class="spider-eye left"></div>
+        <div class="spider-eye right"></div>
+      </div>
+      <div class="spider-leg leg-1"></div>
+      <div class="spider-leg leg-2"></div>
+      <div class="spider-leg leg-3"></div>
+      <div class="spider-leg leg-4"></div>
+      <div class="spider-leg leg-5"></div>
+      <div class="spider-leg leg-6"></div>
+    </div>
+
+    <div class="spider" id="spider2">
+      <div class="spider-body">
+        <div class="spider-eye left"></div>
+        <div class="spider-eye right"></div>
+      </div>
+      <div class="spider-leg leg-1"></div>
+      <div class="spider-leg leg-2"></div>
+      <div class="spider-leg leg-3"></div>
+      <div class="spider-leg leg-4"></div>
+      <div class="spider-leg leg-5"></div>
+      <div class="spider-leg leg-6"></div>
+    </div>
+  </div>
+
+  <script src="game.js" defer></script>
+</body>
+</html>
